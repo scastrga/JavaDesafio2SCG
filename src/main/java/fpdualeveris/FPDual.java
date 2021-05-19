@@ -9,13 +9,13 @@ public class FPDual {
 		lauchBall();
 
 	}
-	
-	public static void lauchBall(){
-		
+
+	public static void lauchBall() {
+
 		Pinball p1 = new Pinball();
-		
+
 		p1.startGame();
-		
+
 	}
 
 }

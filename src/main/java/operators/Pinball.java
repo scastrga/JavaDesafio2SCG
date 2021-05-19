@@ -8,13 +8,12 @@ public class Pinball {
 	private boolean gameOn;
 
 	/**
-	 * Generate a random number 
+	 * Generate a random number
 	 */
 	private void numBall() {
 		ball = (int) (Math.random() * 30 + 1);
 	}
 
-	
 	/**
 	 * Start Game
 	 */
@@ -64,7 +63,7 @@ public class Pinball {
 			System.out.println("PAAAAAM doble puntuacion");
 		}
 	}
-	
+
 	/**
 	 * method covering scores
 	 */
